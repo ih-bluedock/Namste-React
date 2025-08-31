@@ -1,0 +1,27 @@
+{
+  "name": "namste-react",
+  "version": "1.0.0",
+  "description": "Namste React with Akshay Saini",
+  "homepage": "https://github.com/ih-bluedock/Namste-React#readme",
+  "bugs": {
+    "url": "https://github.com/ih-bluedock/Namste-React/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ih-bluedock/Namste-React.git"
+  },
+  "license": "ISC",
+  "author": "Irshad Hussain",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "browserlist":["last 2 versions"]
+}

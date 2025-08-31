@@ -1,0 +1,27 @@
+NPM - it is a package manager.
+package.json - configuration file (settings and dependency). it track all the packages and dependency
+package-lock.json -  track exact version installed
+
+** package.json and package-lock.json both should be commit in the Git
+** whatever you regenarate don't put on the Git
+
+Most important package - Bundler webpack, vit & parcel
+
+two types of packages - 
+1) Dev dependency - require during development phase
+2) Normal dependency - is used in production & local both
+
+Transitive dependency - Our project has Parcel is dev dependency, and Parcel again has own dependency, 
+						and then those dependency again has their own dependency these dependency is called
+						Transitive dependency.
+
+Parcel is a Beast. Babel is unless
+
+Commands - 
+npm - insall/uninstall a node package
+npx - execute a package
+
+** CDN is a not good way to include REACT packages
+
+Browserlists - it defines list of browsers those our app will support
+** To add support for older browsers but Parcel/Bundler will add extra code for this support
