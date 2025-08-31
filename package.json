@@ -1,5 +1,6 @@
 {
   "name": "namste-react",
+  "source":"index.html",
   "version": "1.0.0",
   "description": "Namste React with Akshay Saini",
   "homepage": "https://github.com/ih-bluedock/Namste-React#readme",
@@ -14,6 +15,8 @@
   "author": "Irshad Hussain",
   "type": "commonjs",
   "scripts": {
+    "start":"parcel",
+  "build":"parcel build",
     "test": "jest"
   },
   "devDependencies": {
