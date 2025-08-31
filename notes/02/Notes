@@ -25,3 +25,5 @@ npx - execute a package
 
 Browserlists - it defines list of browsers those our app will support
 ** To add support for older browsers but Parcel/Bundler will add extra code for this support
+
+**Babel - JS Compiler/Transpilor

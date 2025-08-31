@@ -1,0 +1,23 @@
+** Node porject - we can also create scripts to run the commands
+
+npm run start => npm start - it si reserved by NPM
+
+
+JSX and React both are different
+
+//JSX - is not HTML in JS.
+It is HTML-like or XML-like syntax
+
+- attribute should be camel-case like className, tabIndex
+- Single line
+- Multiple line - must be use rounding bracket
+
+** React Component
+1) Class Component - Java-script class / Old way of writting code, used rarely
+2) Funtional Component - Java-script function which returns piece of JSX or react elements. Most commonly used
+
+- Always name React Component in Capital Letter
+
+** Component Composition - Component inside a Component. Calling a Component inside another Component is called Component Composition
+
+**JSX is also handle XSS

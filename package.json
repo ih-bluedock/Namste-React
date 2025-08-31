@@ -1,8 +1,13 @@
 {
   "name": "namste-react",
-  "source":"index.html",
+  "source": "index.html",
   "version": "1.0.0",
   "description": "Namste React with Akshay Saini",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "jest"
+  },
   "homepage": "https://github.com/ih-bluedock/Namste-React#readme",
   "bugs": {
     "url": "https://github.com/ih-bluedock/Namste-React/issues"
@@ -14,11 +19,6 @@
   "license": "ISC",
   "author": "Irshad Hussain",
   "type": "commonjs",
-  "scripts": {
-    "start":"parcel",
-  "build":"parcel build",
-    "test": "jest"
-  },
   "devDependencies": {
     "parcel": "^2.15.4"
   },
@@ -26,5 +26,7 @@
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
-  "browserlist":["last 2 versions"]
+  "browserlist": [
+    "last 2 versions"
+  ]
 }
