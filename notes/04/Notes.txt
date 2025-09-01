@@ -1,0 +1,14 @@
+** props -  short form for properties
+ - props is an Object
+ - passing props to component is like a passing arguments to the JavaScript function
+
+
+ - desctructing on the fly
+
+ ** Config Driven UI - Controlling the UI from data
+
+ ** Wherever use map or loop/iteration then it must be use key props
+    key should be unique
+** indexes for keys are bad practice and don't recommended
+Only use if there is no unique key
+ No using keys (not acceptable) <<<<  index as key <<<<<<<<<<<  unique id
